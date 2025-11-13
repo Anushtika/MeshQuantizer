@@ -35,10 +35,10 @@ print("Faces:", faces.shape)
 2️⃣ Visualize with Open3D
 import open3d as o3d
 
-mesh = o3d.geometry.TriangleMesh()
-mesh.vertices = o3d.utility.Vector3dVector(vertices)
-mesh.triangles = o3d.utility.Vector3iVector(faces)
-o3d.visualization.draw_geometries([mesh])
+## mesh = o3d.geometry.TriangleMesh()
+## mesh.vertices = o3d.utility.Vector3dVector(vertices)
+## mesh.triangles = o3d.utility.Vector3iVector(faces)
+## o3d.visualization.draw_geometries([mesh])
 
 3️⃣ Or visualize using Matplotlib (fallback)
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
@@ -50,11 +50,11 @@ ax.plot_trisurf(vertices[:,0], vertices[:,1], vertices[:,2], triangles=faces)
 plt.show()
 
 🧩 Project Structure
-mixar/
-├── mixar.ipynb                # Main notebook
-├── models/                    # Folder for sample .obj meshes
-├── requirements.txt           # Dependencies
-├── README.md                  # Project documentation
+# mixar/
+# ├── mixar.ipynb                # Main notebook
+# ├── models/                    # Folder for sample .obj meshes
+# ├── requirements.txt           # Dependencies
+# ├── README.md                  # Project documentation
 
 📈 Example Output
 
