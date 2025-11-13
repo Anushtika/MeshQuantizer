@@ -23,23 +23,6 @@ Language	Python 3.8+
 Core Libraries	numpy, matplotlib, pathlib
 3D Processing	trimesh, open3d
 Visualization	matplotlib, open3d.visualization
-⚙️ Installation
-# Clone this repository
-git clone https://github.com/yourusername/mixar.git
-cd mixar
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-If you only need core functionality:
-
-pip install numpy matplotlib
-
-
-For advanced 3D features:
-
-pip install trimesh open3d
 
 🚀 Usage
 1️⃣ Load and Inspect Mesh
@@ -93,9 +76,6 @@ Using Trimesh and Open3D for geometric processing
 
 Visualizing meshes using Python’s plotting ecosystem
 
-👩‍💻 Author
-
-Anushtika S U
 B.Tech CSE (AI & ML), SRM Institute of Science and Technology
 💡 Passionate about AI, 3D vision, and intelligent systems
 
