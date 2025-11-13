@@ -75,10 +75,3 @@ Parsing and reconstructing 3D meshes from raw text
 Using Trimesh and Open3D for geometric processing
 
 Visualizing meshes using Python’s plotting ecosystem
-
-B.Tech CSE (AI & ML), SRM Institute of Science and Technology
-💡 Passionate about AI, 3D vision, and intelligent systems
-
-🧾 License
-
-This project is released under the MIT License — feel free to use, modify, and distribute it.
